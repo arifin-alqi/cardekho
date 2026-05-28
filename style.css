@@ -185,15 +185,6 @@ input, select { font-family: var(--font-body); }
 .hamburger { display:none; flex-direction:column; gap:5px; background:none; border:none; padding:6px; }
 .hamburger span { display:block; width:20px; height:2px; background:rgba(255,255,255,0.85); border-radius:2px; }
 
-/* ─── BREADCRUMB BAR ─────────────────────────────────────── */
-.breadcrumb-bar {
-  background:#fff; border-bottom:1px solid var(--border);
-  padding:9px 24px;
-  display:flex; align-items:center; justify-content:space-between;
-  font-size:12px; color:var(--text-muted);
-}
-.breadcrumb-bar a { color:var(--brand); font-weight:600; }
-.breadcrumb-bar span { color:var(--text-faint); margin:0 5px; }
 .btn-download {
   background: var(--brand); color:#fff;
   border:none; border-radius:6px; padding:6px 14px;
